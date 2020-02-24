@@ -201,7 +201,7 @@
 						</div>
 					</c:when>
 					<c:when test="${vo.product_count == 0}">
-						<p>품절된 상품입니다.</p>
+						<p align="center">품절된 상품입니다.</p>
 					</c:when>
 				</c:choose>
 				<div class="prd_content">
